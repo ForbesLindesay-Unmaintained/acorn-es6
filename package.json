@@ -1,6 +1,6 @@
 {
   "name": "acorn-es6",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Support many ES6 features with no runtime requirements",
   "keywords": [],
   "dependencies": {
