@@ -6,7 +6,8 @@ var transforms = [
   require('./transforms/spread.js'),
   require('./transforms/default-parameters.js'),
   require('./transforms/for-of.js'),
-  require('./transforms/property-methods.js')
+  require('./transforms/property-methods.js'),
+  require('./transforms/template-literal.js')
 ];
 
 module.exports = transform;

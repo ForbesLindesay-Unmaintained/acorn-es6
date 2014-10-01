@@ -57,6 +57,14 @@ var object = {
 };
 ```
 
+### templateLiterals
+
+```js
+var x = 5, y = 10;
+console.log(`${x} + ${y} = ${ x + y}`);
+// 5 + 10 = 15
+```
+
 ### restParameters
 
 ```js
