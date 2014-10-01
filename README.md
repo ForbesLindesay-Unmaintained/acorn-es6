@@ -29,6 +29,14 @@ You can also use it as a browserify transform by specifying the transform as `ac
 var log = msg => console.log(msg);
 ```
 
+### defaultParameters
+
+```js
+function logDeveloper(name, codes = 'JavaScript', livesIn = 'USA') {
+  console.log('name: %s, codes: %s, lives in: %s', name, codes, livesIn);
+}
+```
+
 ### forOf
 
 ```js
@@ -55,7 +63,7 @@ var object = {
 function printList(listname, ...items) {
   console.log('list %s has the following items', listname);
   items.forEach(function (item) { console.log(item); });
-};
+}
 ```
 
 ### spread
@@ -67,7 +75,6 @@ function add(x, y) {
 var numbers = [5, 10]
 add(...numbers);
 // 5 + 10 = 15
-};
 ```
 
 ## License

@@ -15,7 +15,6 @@ mkdirp(__dirname + '/output');
 
 fs.readdirSync(__dirname + '/examples').forEach(function (file) {
   // see https://github.com/marijnh/acorn/issues/129
-  if (file === 'default-parameters.js') return;
   test(file, function () {
     var src = fs.readFileSync(__dirname + '/examples/' + file, 'utf8');
     var ast = acorn.parse(src, {ecmaVersion: 6});

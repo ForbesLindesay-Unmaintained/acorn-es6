@@ -4,7 +4,7 @@
   "description": "Support many ES6 features with no runtime requirements",
   "keywords": [],
   "dependencies": {
-    "acorn": "^0.8.0"
+    "acorn": "https://github.com/marijnh/acorn/archive/015a0e90bcbd5c4093650917d1373d211c086a41.tar.gz"
   },
   "devDependencies": {
     "mkdirp": "^0.5.0",
@@ -13,7 +13,7 @@
     "testit": "^1.2.0"
   },
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
