@@ -3,7 +3,7 @@
 Support many ES6 features with no runtime requirements.  Sometimes this results in more code, but it provides a much cleaner build system.  Things like `Map`, `Set`, `Symbol` etc. must be polyfilled separately if you wish to use them.  This module only aims to provide syntax extensions.
 
 [![Build Status](https://img.shields.io/travis/ForbesLindesay/acorn-es6/master.svg)](https://travis-ci.org/ForbesLindesay/acorn-es6)
-[![Dependency Status](https://img.shields.io/gemnasium/ForbesLindesay/acorn-es6.svg)](https://gemnasium.com/ForbesLindesay/acorn-es6)
+[![Dependency Status](https://img.shields.io/david/ForbesLindesay/acorn-es6.svg)](https://david-dm.org/ForbesLindesay/acorn-es6)
 [![NPM version](https://img.shields.io/npm/v/acorn-es6.svg)](https://www.npmjs.org/package/acorn-es6)
 
 ## Installation
