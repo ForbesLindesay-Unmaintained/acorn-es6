@@ -1,7 +1,5 @@
 # acorn-es6
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/acorn-es6.svg)](https://greenkeeper.io/)
-
 Support many ES6 features with no runtime requirements.  Sometimes this results in more code, but it provides a much cleaner build system.  Things like `Map`, `Set`, `Symbol` etc. must be polyfilled separately if you wish to use them.  This module only aims to provide syntax extensions.
 
 [![Build Status](https://img.shields.io/travis/ForbesLindesay/acorn-es6/master.svg)](https://travis-ci.org/ForbesLindesay/acorn-es6)
